@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\photos\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\Data\xKovácsová~Monika~01-05-1980.txt" />
+    <None Include="wwwroot\Data\Majdánová~Klaudia~15-02-1970.data" />
+    <None Include="wwwroot\Data\Nováaková~Dagmar~03-12-1968.data" />
+    <None Include="wwwroot\Data\Náročná~Pavlína~17-07-1967.data" />
+    <None Include="wwwroot\Data\Stiene~Miška~15-03-1978.data" />
+    <None Include="wwwroot\Data\Tyková~Daniela~15-02-1975.data" />
+  </ItemGroup>
+
+</Project>

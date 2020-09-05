@@ -1,0 +1,104 @@
+﻿@page
+
+@model IndexModel
+@using System.IO;
+@using Microsoft.Extensions.Configuration
+@using System.Web
+
+
+@inject IConfiguration Configuration
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="Content-Type" content="application/json;charset=utf-8">
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+<script src="~/js/site.js"></script>
+<script src="~/js/JSon.js"></script>
+<script src="~/js/regular.js"></script>
+
+<p>
+    @Model.Message
+</p>
+
+<div class="container d-flex justify-content-center">
+    <form id="formix" method="post">
+        <div class="desk mt-5">
+            <div class="desk_head">
+                <div class="desk_head_sub1">
+                    <img src="@Configuration["pathImage"]/icon.png">
+                    &nbsp;&nbsp;Ukážka web formuláru v C#
+                </div>
+                <div class="desk_head_sub2">
+                    <a onclick="window.close();">&times;</a>
+                </div>
+
+            </div>
+
+            <div id="desk_left" class="desk_left"></div>
+            <div id="desk_center" class="desk_center "></div>
+            <div id="desk_right" class="desk_right ">
+
+            </div>
+
+            <div class="desk_second">
+                <div id="desk_second_left" class="desk_second_left" `>
+
+                </div>
+                <div class="desk_second_right">
+                    <input type="button" onclick="submit()" id="" name="" value="Zapísať" class="save" />
+                    <input type="button" id="" name="" value="Zmazať formulár" class="clear" onclick="removeForm()" />
+                    <input type="button" id="" name="" value="Vymazať súbor s aktuálnymi dátami" class="buttonRemove" onclick="removeFile()" />
+                </div>
+
+            </div>
+            <div class="desk_message">
+                Toto je systémová správa
+            </div>
+            <div class="desk_progress"></div>
+            <div class="desk_last">
+                <div class="desk_last_left">
+                    Načítať dáta zo súboru:
+                </div>
+                <div class="desk_last_right">
+                    <select id="cmbFromDir" name="cmbFromDir" onchange="DataToForm()">
+                        <option value=""> </option>
+                        @{
+                            string[] aData;
+                            string[] dataIn = Directory.GetFiles("wwwroot/Data");
+                            foreach (string dataFile in dataIn)
+                            {
+                                if (dataFile.LastIndexOf(".txt") == (dataFile.Length - 4))
+                                {
+                                    aData = dataFile.Split(@"\");
+                                    <option value="@aData[((int)aData.Count())-1]">@aData[((int)aData.Count()) - 1]</option>
+
+                                }
+                            }
+                        }
+                    </select>
+                </div>
+
+            </div>
+        </div>
+        @{
+            string photoOptions = "";
+            string[] aPhotoName;
+            string[] PhotoIn = Directory.GetFiles("wwwroot/photos");
+            string comma = "";
+            foreach (string photoFile in PhotoIn)
+            {
+                aPhotoName = photoFile.Split(@"\");
+                photoOptions += comma + aPhotoName[((int)aPhotoName.Count()) - 1];
+                comma = "|";
+            }
+        }
+        <input type="hidden" id="cmbPhotosList" name="cmbPhotosList" value="@photoOptions" />
+        <input type="hidden" id="action" name="action" value="" />
+        <input type="hidden" id="content" name="content" value="" />
+    </form>
+</div>
+
+
+<script charset="UTF-8">
+    fromJSon();
+    getControlsElements();
+</script>

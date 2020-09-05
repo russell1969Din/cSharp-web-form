@@ -1,0 +1,74 @@
+D:\___Visual Studio\webAppSchool\bin\Debug\netcoreapp3.1\appsettings.Development.json
+D:\___Visual Studio\webAppSchool\bin\Debug\netcoreapp3.1\appsettings.json
+D:\___Visual Studio\webAppSchool\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+D:\___Visual Studio\webAppSchool\bin\Debug\netcoreapp3.1\webAppSchool.exe
+D:\___Visual Studio\webAppSchool\bin\Debug\netcoreapp3.1\webAppSchool.deps.json
+D:\___Visual Studio\webAppSchool\bin\Debug\netcoreapp3.1\webAppSchool.runtimeconfig.json
+D:\___Visual Studio\webAppSchool\bin\Debug\netcoreapp3.1\webAppSchool.runtimeconfig.dev.json
+D:\___Visual Studio\webAppSchool\bin\Debug\netcoreapp3.1\webAppSchool.dll
+D:\___Visual Studio\webAppSchool\bin\Debug\netcoreapp3.1\webAppSchool.pdb
+D:\___Visual Studio\webAppSchool\bin\Debug\netcoreapp3.1\webAppSchool.Views.dll
+D:\___Visual Studio\webAppSchool\bin\Debug\netcoreapp3.1\webAppSchool.Views.pdb
+D:\___Visual Studio\webAppSchool\obj\Debug\netcoreapp3.1\webAppSchool.csprojAssemblyReference.cache
+D:\___Visual Studio\webAppSchool\obj\Debug\netcoreapp3.1\webAppSchool.AssemblyInfoInputs.cache
+D:\___Visual Studio\webAppSchool\obj\Debug\netcoreapp3.1\webAppSchool.AssemblyInfo.cs
+D:\___Visual Studio\webAppSchool\obj\Debug\netcoreapp3.1\webAppSchool.csproj.CoreCompileInputs.cache
+D:\___Visual Studio\webAppSchool\obj\Debug\netcoreapp3.1\webAppSchool.MvcApplicationPartsAssemblyInfo.cache
+D:\___Visual Studio\webAppSchool\obj\Debug\netcoreapp3.1\webAppSchool.RazorAssemblyInfo.cache
+D:\___Visual Studio\webAppSchool\obj\Debug\netcoreapp3.1\webAppSchool.RazorAssemblyInfo.cs
+D:\___Visual Studio\webAppSchool\obj\Debug\netcoreapp3.1\webAppSchool.TagHelpers.input.cache
+D:\___Visual Studio\webAppSchool\obj\Debug\netcoreapp3.1\webAppSchool.TagHelpers.output.cache
+D:\___Visual Studio\webAppSchool\obj\Debug\netcoreapp3.1\webAppSchool.RazorCoreGenerate.cache
+D:\___Visual Studio\webAppSchool\obj\Debug\netcoreapp3.1\Razor\Pages\Error.cshtml.g.cs
+D:\___Visual Studio\webAppSchool\obj\Debug\netcoreapp3.1\Razor\Pages\Index.cshtml.g.cs
+D:\___Visual Studio\webAppSchool\obj\Debug\netcoreapp3.1\Razor\Pages\Privacy.cshtml.g.cs
+D:\___Visual Studio\webAppSchool\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_Layout.cshtml.g.cs
+D:\___Visual Studio\webAppSchool\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_ValidationScriptsPartial.cshtml.g.cs
+D:\___Visual Studio\webAppSchool\obj\Debug\netcoreapp3.1\Razor\Pages\_ViewImports.cshtml.g.cs
+D:\___Visual Studio\webAppSchool\obj\Debug\netcoreapp3.1\Razor\Pages\_ViewStart.cshtml.g.cs
+D:\___Visual Studio\webAppSchool\obj\Debug\netcoreapp3.1\webAppSchool.RazorTargetAssemblyInfo.cache
+D:\___Visual Studio\webAppSchool\obj\Debug\netcoreapp3.1\webAppSchool.RazorTargetAssemblyInfo.cs
+D:\___Visual Studio\webAppSchool\obj\Debug\netcoreapp3.1\webAppSchool.Views.pdb
+D:\___Visual Studio\webAppSchool\obj\Debug\netcoreapp3.1\staticwebassets\webAppSchool.StaticWebAssets.Manifest.cache
+D:\___Visual Studio\webAppSchool\obj\Debug\netcoreapp3.1\staticwebassets\webAppSchool.StaticWebAssets.xml
+D:\___Visual Studio\webAppSchool\obj\Debug\netcoreapp3.1\webAppSchool.dll
+D:\___Visual Studio\webAppSchool\obj\Debug\netcoreapp3.1\webAppSchool.pdb
+D:\___Visual Studio\webAppSchool\obj\Debug\netcoreapp3.1\webAppSchool.genruntimeconfig.cache
+D:\___Visual Studio\webAppSchool\obj\Debug\netcoreapp3.1\webAppSchool.csproj.CopyComplete
+d:\_______sources\cSharp\web\bin\Debug\netcoreapp3.1\appsettings.Development.json
+d:\_______sources\cSharp\web\bin\Debug\netcoreapp3.1\appsettings.json
+d:\_______sources\cSharp\web\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+d:\_______sources\cSharp\web\bin\Debug\netcoreapp3.1\webAppSchool.exe
+d:\_______sources\cSharp\web\bin\Debug\netcoreapp3.1\webAppSchool.deps.json
+d:\_______sources\cSharp\web\bin\Debug\netcoreapp3.1\webAppSchool.runtimeconfig.json
+d:\_______sources\cSharp\web\bin\Debug\netcoreapp3.1\webAppSchool.runtimeconfig.dev.json
+d:\_______sources\cSharp\web\bin\Debug\netcoreapp3.1\webAppSchool.dll
+d:\_______sources\cSharp\web\bin\Debug\netcoreapp3.1\webAppSchool.pdb
+d:\_______sources\cSharp\web\bin\Debug\netcoreapp3.1\webAppSchool.Views.dll
+d:\_______sources\cSharp\web\bin\Debug\netcoreapp3.1\webAppSchool.Views.pdb
+d:\_______sources\cSharp\web\obj\Debug\netcoreapp3.1\webAppSchool.csprojAssemblyReference.cache
+d:\_______sources\cSharp\web\obj\Debug\netcoreapp3.1\webAppSchool.AssemblyInfoInputs.cache
+d:\_______sources\cSharp\web\obj\Debug\netcoreapp3.1\webAppSchool.AssemblyInfo.cs
+d:\_______sources\cSharp\web\obj\Debug\netcoreapp3.1\webAppSchool.csproj.CoreCompileInputs.cache
+d:\_______sources\cSharp\web\obj\Debug\netcoreapp3.1\webAppSchool.MvcApplicationPartsAssemblyInfo.cache
+d:\_______sources\cSharp\web\obj\Debug\netcoreapp3.1\webAppSchool.RazorAssemblyInfo.cache
+d:\_______sources\cSharp\web\obj\Debug\netcoreapp3.1\webAppSchool.RazorAssemblyInfo.cs
+d:\_______sources\cSharp\web\obj\Debug\netcoreapp3.1\webAppSchool.TagHelpers.input.cache
+d:\_______sources\cSharp\web\obj\Debug\netcoreapp3.1\webAppSchool.TagHelpers.output.cache
+d:\_______sources\cSharp\web\obj\Debug\netcoreapp3.1\webAppSchool.RazorCoreGenerate.cache
+d:\_______sources\cSharp\web\obj\Debug\netcoreapp3.1\Razor\Pages\Error.cshtml.g.cs
+d:\_______sources\cSharp\web\obj\Debug\netcoreapp3.1\Razor\Pages\Index.cshtml.g.cs
+d:\_______sources\cSharp\web\obj\Debug\netcoreapp3.1\Razor\Pages\Privacy.cshtml.g.cs
+d:\_______sources\cSharp\web\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_Layout.cshtml.g.cs
+d:\_______sources\cSharp\web\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_ValidationScriptsPartial.cshtml.g.cs
+d:\_______sources\cSharp\web\obj\Debug\netcoreapp3.1\Razor\Pages\_ViewImports.cshtml.g.cs
+d:\_______sources\cSharp\web\obj\Debug\netcoreapp3.1\Razor\Pages\_ViewStart.cshtml.g.cs
+d:\_______sources\cSharp\web\obj\Debug\netcoreapp3.1\webAppSchool.RazorTargetAssemblyInfo.cache
+d:\_______sources\cSharp\web\obj\Debug\netcoreapp3.1\webAppSchool.RazorTargetAssemblyInfo.cs
+d:\_______sources\cSharp\web\obj\Debug\netcoreapp3.1\webAppSchool.Views.pdb
+d:\_______sources\cSharp\web\obj\Debug\netcoreapp3.1\staticwebassets\webAppSchool.StaticWebAssets.Manifest.cache
+d:\_______sources\cSharp\web\obj\Debug\netcoreapp3.1\staticwebassets\webAppSchool.StaticWebAssets.xml
+d:\_______sources\cSharp\web\obj\Debug\netcoreapp3.1\webAppSchool.dll
+d:\_______sources\cSharp\web\obj\Debug\netcoreapp3.1\webAppSchool.pdb
+d:\_______sources\cSharp\web\obj\Debug\netcoreapp3.1\webAppSchool.genruntimeconfig.cache
+d:\_______sources\cSharp\web\obj\Debug\netcoreapp3.1\webAppSchool.csproj.CopyComplete

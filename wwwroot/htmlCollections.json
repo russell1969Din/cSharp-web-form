@@ -1,0 +1,233 @@
+{
+  "collection": [
+    {
+      "desk_left": [
+        {
+          "id": "labName",
+          "class": "desk_left_leftLab",
+          "note": "Meno:&nbsp;"
+        },
+        {
+          "id": "inpName",
+          "value": "",
+          "class": "",
+          "onkeyup": "formControl(this, 'MVm', 2)"
+        },
+        {
+          "id": "labLastName",
+          "class": "desk_left_leftLab",
+          "note": "Priezvisko:&nbsp;"
+        },
+        {
+          "id": "inpLastName",
+          "value": "",
+          "class": "",
+          "onkeyup": "formControl(this, 'MVm', 2)"
+        },
+        {
+          "id": "labStreet",
+          "class": "desk_left_leftLab",
+          "note": "Ulica:&nbsp;"
+        },
+        {
+          "id": "inpStreet",
+          "value": "",
+          "class": "",
+          "onkeyup": "formControl(this, 'Mz', 2)"
+        },
+        {
+          "id": "labRegNumber",
+          "class": "desk_left_leftLab",
+          "note": "Reg.číslo/čislo:&nbsp;"
+        },
+        {
+          "id": "inpRegNumber",
+          "value": "",
+          "class": "desk_left_regNumber",
+          "onkeyup": "formControl(this, 'C', 1)"
+        },
+        {
+          "id": "inpNumber",
+          "value": "",
+          "class": "desk_left_number",
+          "onkeyup": "formControl(this, 'Cd', 1)"
+        },
+        {
+          "id": "labPSC",
+          "class": "desk_left_leftLabPSC",
+          "note": "PSČ:&nbsp;"
+        },
+        {
+          "id": "inpPSC",
+          "value": "",
+          "class": "psc",
+          "onkeyup": "formControl(this, 'PSC', 6)"
+        },
+        {
+          "id": "labCity",
+          "class": "desk_left_leftLab",
+          "note": "Mesto:&nbsp;"
+        },
+        {
+          "id": "inpCity",
+          "value": "",
+          "class": "",
+          "onkeyup": "formControl(this, 'Mz', 2)"
+        },
+        {
+          "id": "labBirthDay",
+          "class": "desk_left_leftLab",
+          "note": "Deň narodenia:&nbsp;"
+        },
+        {
+          "id": "inpBirthDay",
+          "value": "",
+          "class": "",
+          "onkeyup": "formControl(this, 'D', 10)"
+        },
+        {
+          "id": "labEMail",
+          "class": "desk_left_leftLab",
+          "note": "E-mail:&nbsp;"
+        },
+        {
+          "id": "inpEMail",
+          "value": "",
+          "class": "",
+          "onkeyup": "formControl(this, 'E', 5)"
+        },
+        {
+          "id": "labMobil",
+          "class": "desk_left_leftLab",
+          "note": "Mobil:&nbsp;"
+        },
+        {
+          "id": "inpMobil",
+          "value": "",
+          "class": "",
+          "onkeyup": "formControl(this, 'T', 9)"
+        }
+      ],
+      "desk_center": [
+        {
+          "id": "radioMan",
+          "value": "man",
+          "class": "desk_center_line",
+          "note": "&nbsp;Muž",
+          "onclick": "formControl(this)"
+        },
+        {
+          "id": "radioWoman",
+          "value": "woman",
+          "class": "desk_center_line",
+          "note": "&nbsp;Žena",
+          "onclick": "formControl(this)"
+        },
+        {
+          "id": "X",
+          "class": "desk_center_line"
+        },
+        {
+          "id": "checkCSharp",
+          "class": " desk_center_line",
+          "note": "&nbsp;C#",
+          "onclick": "formControl(this)"
+        },
+        {
+          "id": "checkJS",
+          "class": "desk_center_line",
+          "note": "&nbsp;Javascript",
+          "onclick": "formControl(this)"
+        },
+        {
+          "id": "checkPHP",
+          "class": "desk_center_line",
+          "note": "&nbsp;PHP#",
+          "onclick": "formControl(this)"
+        },
+        {
+          "id": "checkJAVA",
+          "class": "desk_center_line",
+          "note": "&nbsp;Java",
+          "onclick": "formControl(this)"
+        },
+        {
+          "id": "checkOther",
+          "class": "desk_center_line",
+          "note": "&nbsp;Iný jazyk",
+          "onclick": "formControl(this)"
+        }
+      ],
+      "desk_right": [
+        {
+          "id": "cmbSchool",
+          "class": "desk_right_rightLab",
+          "note": "Dosiahnuté vzdelanie",
+          "onchange": "formControl(this)",
+          "options": [
+            {
+              "value": "Zakladne vzdelanie",
+              "note": "Základné vzdelanie"
+            },
+            {
+              "value": "Stredne odborne vzdelanie",
+              "note": "Stredné odborné vzdelanie"
+            },
+            {
+              "value": "Uplne stredne vzdelanie",
+              "note": "Úplné stredné vzdelanie"
+            },
+            {
+              "value": "Vysokoškolské vzdelanie",
+              "note": "Vysokoškolské vzdelanie"
+            }
+
+          ]
+        },
+        {
+          "id": "cmbPhotos",
+          "class": "desk_right_rightLab",
+          "note": "Vybrať fotku",
+          "onchange": "insertPhoto()",
+          "options": "cmbPhotosList"
+        },
+        {
+          "id": "pictPhotos",
+          "class": "desk_right_photo"
+        }
+
+      ],
+      "desk_second_left": [
+        {
+          "id": "lstRegion",
+          "class": "region",
+          "size": "5",
+          "onchange": "formControl(this)",
+          "options": [
+            {
+              "value": "Zapadne Slovensko",
+              "note": "Západné Slovensko"
+            },
+            {
+              "value": "Juzne Slovensko",
+              "note": "Južné Slovensko"
+            },
+            {
+              "value": "Stredne Slovensko",
+              "note": "Stredné Slovensko"
+            },
+            {
+              "value": "Východne Slovensko",
+              "note": "Východné Slovensko"
+            },
+            {
+              "value": "Zahranicie",
+              "note": "Zahraničie"
+            }
+
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,282 @@
+﻿.buttonRemove {
+    display:none;
+}
+
+.desk {
+    width: 700px;
+    height: 560px;
+    background-color: #f0f0f0;
+    -webkit-box-shadow: -7px 10px 76px -8px rgba(0,0,0,0.75);
+    -moz-box-shadow: -7px 10px 76px -8px rgba(0,0,0,0.75);
+    box-shadow: -7px 10px 76px -8px rgba(0,0,0,0.75);
+}
+
+    .desk_head {
+        background-color: #ffffff;
+        height:34px;
+        font-weight:normal;
+        line-height:16px;
+        padding:0px;
+        font-size:12px;
+    }
+
+        .desk_head_sub1 {
+            clear: both;
+            float: left;
+            width: 92%;
+            margin: 6px 0 0 10px;
+        }
+
+        .desk_head_sub2 {
+            float: right;
+            width: 4%;
+            text-align: center;
+            cursor: pointer;
+            margin-top: 4px;
+            font-size: 30px;
+        }
+
+    .desk_left {
+        clear: both;
+        float: left;
+        width: 45%;
+    }
+
+    .desk_center {
+        float: left;
+        width: 17%;
+    }
+
+    .desk_right {
+        float: left;
+        width: 38%;
+
+    }
+
+.desk_left, .desk_center, .desk_right {
+    height: 270px;
+    margin-top: 12px;
+}
+
+.desk_left_leftLab {
+    margin: 7px 0 0 10px;
+    clear: both;
+    float: left;
+    width: 90px;
+    height: 20px;
+    font-family: Microsoft Sans Serif;
+    font-size: 12px;
+    line-height: 12px;
+    font-weight: normal;
+    padding-top: 0px;
+}
+
+.desk_left input {
+    margin-top: 5px;
+    float: left;
+    border: solid 1px #000;
+    font-size: 12px;
+    width: 200px;
+}
+
+.desk_left #inpRegNumber {
+    width: 50px;
+}
+
+.desk_left #inpNumber {
+    width: 40px;
+    margin-left: 10px;
+}
+
+.desk_left #inpPSC {
+    width: 50px;
+    margin-left: 0px;
+}
+
+.desk_left_leftLabPSC {
+    margin: 7px 0 0 8px;
+    float: left;
+    width: 40px;
+    height: 20px;
+    font-family: Microsoft Sans Serif;
+    font-size: 12px;
+    line-height: 12px;
+    font-weight: normal;
+    padding-top: 0px;
+}
+
+.desk_center {
+    font-family: Microsoft Sans Serif;
+    font-size: 12px;
+    line-height: 12px;
+    font-weight: normal;
+}
+
+.desk_center_line_start {
+    margin-top: 555px;
+    border:solid 1px red;
+}
+
+.desk_center_line {
+    margin-top: 10px;
+    /*border: solid 1px #000;*/
+    clear: both;
+    float: left;
+    width: 100px;
+    height: 17px;
+    padding-left: 10px;
+}
+
+
+
+    .desk_center_line input[type=checkbox] {
+        cursor:pointer;
+    }
+
+    .desk_center_line input[type=radio] {
+        cursor: pointer;
+        
+    }
+
+
+
+    .desk_right_rightLab {
+        padding-top: 7px;
+        clear: both;
+        margin-top: 8px;
+        float: left;
+        width: 80%;
+        height: 17px;
+        font-family: Microsoft Sans Serif;
+        font-size: 12px;
+        line-height: 12px;
+        font-weight: normal;
+    }
+
+.desk_right select {
+    margin-top: 5px;
+    clear: both;
+    float: left;
+    font-size: 12px;
+    width: 80%;
+    cursor:pointer;
+}
+
+.desk_right_photo {
+    margin-top: 7px;
+    clear: both;
+    float: left;
+    width: 80%;
+    height: 150px;
+    /*background-image: url(../photos/Petra.gif);*/
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+    .desk_second {
+        margin-top:15px;
+        clear:both;
+        float:left;
+        width:100%;
+        height:110px;
+    }
+
+    .desk_second_left{
+        margin: 0 0 0 10px;
+        clear: both;
+        float: left;
+        width: 42%;
+        height: 105px;
+    }
+
+
+        .desk_second_left #lstRegion {
+            margin-top: 5px;
+            clear: both;
+            float: left;
+            font-size: 12px;
+            width: 80%;
+            cursor:pointer;
+        }
+
+    .desk_second_right {
+        margin: 0px;
+        float: left;
+        width: 55%;
+        height: 105px;
+    }
+
+        .desk_second_right input[type=button] {
+            float: left;
+            font-family: Microsoft Sans Serif;
+            font-size: 12px;
+            line-height: 12px;
+            font-weight: normal;
+            margin: 10px 0 0 10px;
+        }
+
+
+
+        .desk_second_right .remove {
+            clear: both;
+        }
+
+    .desk_message {
+        clear: both;
+        float: left;
+        width: 97%;
+        font-family: Microsoft Sans Serif;
+        font-size: 14px;
+        line-height: 14px;
+        font-weight: 700;
+        color:#cc0000;
+        text-align:center;
+        height: 20px;
+        margin: 20px 0 0 10px;
+    }
+
+    .desk_progress {
+        clear: both;
+        float: left;
+        width: 97%;
+        background-color:forestgreen;
+        height: 25px;
+        margin: 2px 0 0 10px;
+        border-radius: 8px;
+    }
+
+    .desk_last {
+        clear: both;
+        float: left;
+        width: 97%;
+        height: 35px;
+        margin: 10px 0 0 10px;
+        padding: 0px;
+        font-family: Microsoft Sans Serif;
+        font-size: 14px;
+        line-height: 14px;
+        font-weight: normal;
+    }
+
+        .desk_last_left {
+            margin-top: 5px;
+            padding-right: 15px;
+            float: left;
+            width: 40%;
+            height: 30px;
+            text-align: right;
+        }
+
+        .desk_last_right {
+            margin-top: 5px;
+            padding-left:15px;
+            float: left;
+            width: 57%;
+            height: 30px;
+        }
+
+
+            .desk_last_right select {
+                width: 300px;
+                cursor:pointer;
+            }
